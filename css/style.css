@@ -16,3 +16,13 @@ th, td {
     padding: 1%;
     width: 30%;
 }
+
+.cropped {
+width: 150px;
+height: 150px;
+overflow: hidden;
+}
+
+.cropped img {
+margin: -150px 0px 0px -150px;
+}
