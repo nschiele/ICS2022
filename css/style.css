@@ -17,6 +17,14 @@ th, td {
     width: 30%;
 }
 
+.top-spacing {
+  padding-top: 35px;
+}
+
+.spacing {
+  padding: 25px;
+}
+
 .cropped {
 width: 150px;
 height: 150px;
