@@ -6,11 +6,14 @@
   <title>ICS 2023</title>
 
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+  <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
   <link rel="stylesheet" href="css/style.css">
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
   <script  src="js/index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -26,10 +29,11 @@
 <body>
 
   <a name="home" href="#"></a>
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="nav">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark navbar-static-top" id="nav">
     <a class="navbar-brand" href="#" >
         <img src="images/ICS.png" alt="logo" style="width:40px" >
     </a>
+    <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
     <ul class="navbar-nav">
     <li class="active nav-item"><a class="nav-link" href="./index.html">Home</a></li>
     <li class="nav-item"><a class="nav-link" href="cfp.html">Call for Papers</a></li>
@@ -37,8 +41,21 @@
     <li class="nav-item"><a class="nav-link" href="registration.html">Registration</a></li>
     <li class="nav-item"><a class="nav-link" href="organization.html">Organization</a></li>
     <li class="nav-item"><a class="nav-link" href="ACM_ICS23_sponsorship_opportunities.pdf">Sponsorship</a></li>
+    <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Local Information
+       </a>
+       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+         <a class="dropdown-item" href="https://fcrc.acm.org/for-attendees/hotel-info">Hotel</a>
+         <a class="dropdown-item" href="https://fcrc.acm.org/for-attendees/transportation">Transportation</a>
+         <a class="dropdown-item" href="https://fcrc.acm.org/for-attendees/fcrc-kids-camp">Child Care</a>
+         <!-- <div class="dropdown-divider"></div>
+         <a class="dropdown-item" href="#">Something else here</a> -->
+       </div>
+     </li>
     <!-- <li class="nav-item"><a class="nav-link" href="workshop.html">Workshop/Tutorial</a></li> -->
   </ul>
+<!-- </div> -->
 </nav>
 
 <div class="container">
