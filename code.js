@@ -49,6 +49,7 @@ function addSponsors(intel){
         html += ' </div>'
         html +=' </div>'
         html +='</div>'
+        html +='<br>'
         }
 
     html += '<div class="row spacing">'
