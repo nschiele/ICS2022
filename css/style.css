@@ -1,31 +1,40 @@
 body {
-    font: 14px Georgia, "Bitstream Charter", serif;
+  font: 14px Georgia, "Bitstream Charter", serif;
 }
 
 p {
-  display:block;
+  display: block;
 }
 
 #title {
-    padding: 10% 5% 5% 5%;
-    text-align: center;
-}
-.logo {
-    padding: 10%;
-}
-img {
-    margin: auto;
-}
-th, td {
-    padding: 1%;
-    width: 30%;
+  padding: 10% 5% 5% 5%;
+  text-align: center;
 }
 
-.navbar-nav > li > a, .navbar-brand {
-    padding-top:10px !important; padding-bottom:0 !important;
-    height: 40px;
+.logo {
+  padding: 10%;
 }
-.navbar {min-height:30px !important;}
+
+img {
+  margin: auto;
+}
+
+th,
+td {
+  padding: 1%;
+  width: 30%;
+}
+
+.navbar-nav>li>a,
+.navbar-brand {
+  padding-top: 10px !important;
+  padding-bottom: 0 !important;
+  height: 40px;
+}
+
+.navbar {
+  min-height: 30px !important;
+}
 
 .top-spacing {
   padding-top: 35px;
@@ -36,16 +45,21 @@ th, td {
 }
 
 .cropped {
-width: 150px;
-height: 150px;
-overflow: hidden;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
 }
 
 .cropped img {
-margin: -150px 0px 0px -150px;
+  margin: -150px 0px 0px -150px;
 }
 
-.center{
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+.footer {
   text-align: center;
   margin: auto;
 }
