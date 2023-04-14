@@ -71,6 +71,9 @@ function addSponsors(intel = 2, harry) {
         html += '<div class="row">'
         html += '<h3><a href="memoriam.html#memorial">In Memoriam</a></h3>'
         html += '</div>'
+        html += '<div class="row spacing">'
+        html += '<br>'
+        html += '</div>'
 
         // html += '<div class="row spacing">'
         // html += ' <h4>'
