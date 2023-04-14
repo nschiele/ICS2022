@@ -66,30 +66,30 @@ function addSponsors(intel = 2, harry) {
     html += ' </div>'
     html += '</div>'
 
-    if(harry != null){
+    if (harry != null) {
 
         html += '<div class="row">'
-        html += '<h3>In Memoriam:</h3>'
+        html += '<h3><a href="memoriam.html#memorial">In Memoriam</a></h3>'
         html += '</div>'
 
-        html += '<div class="row spacing">'
-        html += ' <h4>'
-        html += 'With great sadness, we report the passing of a long-time ICS Steering Committee member Harry Wijshoff. Harry attended ICS starting with the first conference in 1987 and made numerous contributions to ICS. We will miss his intellect, sense of humor, and friendship!'
-        html += '</h4>'
-        html += '</div>'
+        // html += '<div class="row spacing">'
+        // html += ' <h4>'
+        // html += 'With great sadness, we report the passing of a long-time ICS Steering Committee member Harry Wijshoff. Harry attended ICS starting with the first conference in 1987 and made numerous contributions to ICS. We will miss his intellect, sense of humor, and friendship!'
+        // html += '</h4>'
+        // html += '</div>'
 
-        html += '<div class="row spacing pt-n0">'
-        html += ' <h4>'
-        html += 'ICS greatfully acknowledges the donations of support made in memory of,'
-        html += '</h4>'
-        html += '<ul>'
-        html += '<li><h4>Harry Wijshoff, 2023</h4></li>'
-        html += '<li><h4>Utpal Banerjee, 2017</h4></li>'
-        html += '<li><h4>Theo Papatheodorou, 2012</h4></li>'
-        html += '<li><h4>Stamatis Vassiliadis, 2007</h4></li>'
-        html += '<li><h4>Ken Kennedy, 2007</h4></li>'
-        html += '</ul>'
-        html += '</div>'
+        // html += '<div class="row spacing pt-n0">'
+        // html += ' <h4>'
+        // html += 'ICS greatfully acknowledges the donations of support made in memory of,'
+        // html += '</h4>'
+        // html += '<ul>'
+        // html += '<li><h4>Harry Wijshoff, 2023</h4></li>'
+        // html += '<li><h4>Utpal Banerjee, 2017</h4></li>'
+        // html += '<li><h4>Theo Papatheodorou, 2012</h4></li>'
+        // html += '<li><h4>Stamatis Vassiliadis, 2007</h4></li>'
+        // html += '<li><h4>Ken Kennedy, 2007</h4></li>'
+        // html += '</ul>'
+        // html += '</div>'
 
 
     }

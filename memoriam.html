@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ICS 2023</title>
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+    <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="code.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/ICS.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/ICS.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="code.js"></script>
+    <script>
+        console.log(getParameterByName("intel"));
+        $(document).ready(function () {
+            addSponsors(getParameterByName("intel"), getParameterByName("harry"));
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <a name="home" href="#"></a>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+    <script>
+        $("#nav-placeholder").load("nav.html", function () {
+            $("#nav-home").addClass("active")
+            console.log("check")
+        });  
+    </script>
+    <!--end of Navigation bar-->
+
+
+    <div class="container">
+        <div class="row center" id="title">
+            <div class="col-md-12">
+                <!-- <img src="images/acm_logo_tablet.svg" > -->
+                <h1 class="text-center">ICS 2023: International Conference on Supercomputing</h1>
+                <h3 class="text-center">June 21-23, Orlando FL</h3>
+                <h3 class="text-center"><a href="https://fcrc.acm.org/"><a href="https://fcrc.acm.org/">In Conjunction
+                            with the
+                            Federated Computing Research Conference</a></a></h3>
+                <img class="img-fluid" height=210px src="images/big_view.png">
+            </div>
+
+            <!-- <img height=210px src="images/img1.png">
+    <img height=210px src="images/img2.png">
+    <img height=210px src="images/img3.png"> -->
+        </div>
+
+        <!-- <div class="row">
+    <div class = "col-md-12">
+    <h5>
+      ACM International Conference on Supercomputing (ICS) is the premier international forum for the presentation of research results in high-performance computing systems. The 37th conference (ICS-2023) will be held in Orlando, FL.
+    </h5>
+  </div>
+  </div> -->
+        <div class="row top-spacing">
+            <div class="col-md-7">
+                <a href="#" name="papers"></a>
+                <div class="row">
+                    <h3 id="memorial">In Memorium</h3>
+                </div>
+                <div class="row spacing">
+                    <h4>
+                        With great sadness, we report the passing of a long-time ICS Steering Committee member Harry
+                        Wijshoff. Harry attended ICS starting with the first conference in 1987 and made numerous
+                        contributions to ICS. We will miss his intellect, sense of humor, and friendship!
+                    </h4>
+                </div>
+
+                <div class="row spacing pt-n0">
+                    <h4>
+                        ICS gratefully acknowledges the donations of support made in memory of,
+                    </h4>
+                    <ul>
+                        <li>
+                            <h4>Harry Wijshoff, 2023</h4>
+                        </li>
+                        <li>
+                            <h4>Utpal Banerjee, 2017</h4>
+                        </li>
+                        <li>
+                            <h4>Theo Papatheodorou, 2012</h4>
+                        </li>
+                        <li>
+                            <h4>Stamatis Vassiliadis, 2007</h4>
+                        </li>
+                        <li>
+                            <h4>Ken Kennedy, 2007</h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-3" id="supporters">
+
+                <!-- <div class="row">
+        <h3>Supporters:</h3>
+      </div> -->
+                <div class="row">
+                    <!-- <div class="row">
+          <h4>Gold:</h4>
+        </div> -->
+                    <!-- <div class="row">
+          <div class="col-md-2">
+            <div class="text-center">
+              <a href="http://www.paratools.com/" >
+                <img src="../paratools_logo.jpg" height="60" class="logo">
+              </a>
+            </div>
+          </div>
+        </div> -->
+                    <!-- <div class="row">
+          <div class="col-md-2">
+            <div class="text-center">
+              <a href="https://www.mellanox.com/" >
+                <img src="../Mellanox-Technologies.jpg" height="75" class="logo">
+              </a>
+            </div>
+          </div>
+        </div> -->
+                    <!-- <div class="row">
+          <div class="col-md-2">
+            <div class="text-center">
+              <a href="https://www.amd.com/en" >
+                <img src="../53863A_AMD_E_Wh_RGB.jpg" height="75" class="logo">
+              </a>
+            </div>
+          </div>
+        </div> -->
+                    <!-- <div class="row">
+          <div class="col-md-2">
+            <div class="text-center">
+              <a href="https://openpowerfoundation.org/" >
+                <img src="OpenPower_logo_whtbg.png" height="75" class="logo">
+              </a>
+            </div>
+          </div>
+        </div> -->
+                </div>
+                <div class="row">
+                    <!-- <div class="row">
+          <h4>Bronze:</h4>
+        </div> -->
+                    <!-- <div class="row" >
+          <div class="col-md-2" >
+            <div class="text-center" >
+              <a href="https://www.hpccharm.com/">
+                <img src="../charmworks-logo.png" height="60" class="logo">
+              </a>
+            </div>
+          </div>
+        </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div id="intelMessage"></div>
+    </div>
+
+</body>
+
+</html>
