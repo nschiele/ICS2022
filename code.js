@@ -66,7 +66,7 @@ function addSponsors(intel = 2, harry) {
     html += ' </div>'
     html += '</div>'
 
-    if (harry != null) {
+    if (true) {
 
         html += '<div class="row">'
         html += '<h3><a href="memoriam.html#memorial">In Memoriam</a></h3>'
